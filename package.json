@@ -5,9 +5,10 @@
   "repository": "https://github.com/yangjiyuan/grunt-bugfree",
   "author": {
     "name": "yangjiyuan",
-    "email": "",
+    "email": "yjy972080142@gmail.com",
     "url": "http://yangjiyuan.github.io"
   },
+  "homepage":"http://yangjiyuan.github.io/grunt-bugfree",
   "keywords": [
     "gruntplugin"
   ],
@@ -17,9 +18,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-jshint": "~0.8.0",
-    "grunt-contrib-nodeunit": "~0.3.0",
     "grunt": "~0.4.2",
     "jshint-stylish": "~0.1.5",
     "load-grunt-tasks": "~0.3.0"
