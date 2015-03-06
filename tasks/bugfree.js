@@ -46,7 +46,7 @@ module.exports = function (grunt) {
       arr[index] = commentSymbol + value;
     });
 
-    commentContent = lineCommentArr.join(grunt.util.normalizelf('\n'));
+    commentContent = lineCommentArr.join("\n");
 
     // Iterate over all specified file groups.
     this.files.forEach(function (file) {
@@ -62,7 +62,7 @@ module.exports = function (grunt) {
       }).map(function (filepath) {
         // Read file source.
         var originalFileContent = grunt.file.read(filepath),
-            newFileContent = commentContent + grunt.util.normalizelf('\n') + originalFileContent;
+            newFileContent = commentContent + "\n" + originalFileContent;
 
         if(testExistRegexMap[who].test(originalFileContent)){
           return;          

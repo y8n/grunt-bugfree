@@ -28,7 +28,7 @@ module.exports = function (grunt) {
     // Configuration to be run (and then tested).
     bugfree: {
       options:{
-        who:'alpaca', // 可取值:buddha(佛祖) alpaca(神兽)
+        who:'buddha', // 可取值:buddha(佛祖) alpaca(神兽)
         commentSymbol:'//' //注释类型
       }, 
       dist:['test/fixtures/*.js']
