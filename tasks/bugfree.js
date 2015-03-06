@@ -40,7 +40,7 @@ module.exports = function (grunt) {
         commentContent = grunt.file.read(commentFilePath);
 
     // 分割每一行
-    var lineCommentArr = commentContent.split(grunt.util.normalizelf('\n'));
+    var lineCommentArr = commentContent.split("\n");
 
     lineCommentArr.forEach(function(value,index,arr){
       arr[index] = commentSymbol + value;
