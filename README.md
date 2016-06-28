@@ -1,6 +1,6 @@
 # grunt-bugfree
 
-> Bug free!
+> Bug free!!
 
 ## Getting Started
 This plugin requires Grunt.
